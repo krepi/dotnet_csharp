@@ -1,0 +1,14 @@
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/bin/Debug/net8.0/FirstProject
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/bin/Debug/net8.0/FirstProject.deps.json
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/bin/Debug/net8.0/FirstProject.runtimeconfig.json
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/bin/Debug/net8.0/FirstProject.dll
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/bin/Debug/net8.0/FirstProject.pdb
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/FirstProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/FirstProject.AssemblyInfoInputs.cache
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/FirstProject.AssemblyInfo.cs
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/FirstProject.csproj.CoreCompileInputs.cache
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/FirstProject.dll
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/refint/FirstProject.dll
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/FirstProject.pdb
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/FirstProject.genruntimeconfig.cache
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/ref/FirstProject.dll
