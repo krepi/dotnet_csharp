@@ -50,15 +50,15 @@ namespace FirstProject
                 return "1";
             }
 
-            static int solveMeFirst(int a, int b) { 
-                int sum = 0;
-                if(a >=1 && a<=1000 &&  b >=1 && b<=1000)
-                
-                {  
-                    sum = a + b;
-                }
-                return sum;
-            }
+            // static int solveMeFirst(int a, int b) { 
+            //     int sum = 0;
+            //     if(a >=1 && a<=1000 &&  b >=1 && b<=1000)
+            //      
+            //     {  
+            //         sum = a + b;
+            //     }
+            //     return sum;
+            // }
             private static void Main(string[] args)
             {
                 
