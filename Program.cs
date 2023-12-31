@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.Runtime.InteropServices.JavaScript;
 using System.Text;
 
@@ -9,16 +10,30 @@ namespace FirstProject
     {
         private static void Main(string[] args)
         {
-            Person bill = new Person("Bill", "Koko");
+            ExcelFile excelFile = new ExcelFile();
+            excelFile.CreatedOn = DateTime.Now;
+            excelFile.FileName = "excel-file";
+            excelFile.GenerateReport();
 
+            WordFile wordFile = new WordFile();
+            wordFile.FileName = "word-file";
+            wordFile.CreatedOn = DateTime.Now;
 
-            bill.SetDateOfBirth(new DateTime(1990, 1, 1));
+            wordFile.Print();
 
+            PowerPointFile powerPointFile = new PowerPointFile();
+            powerPointFile.FileName = "power-point presentation";
+            powerPointFile.CreatedOn = DateTime.Now;
+            
+            powerPointFile.Present();
+            Console.WriteLine($"Starting the car:  {wordFile.FileName} z dupska");
 
-            bill.SayHi();
-            Person john = new Person("John", "Wick", new DateTime(2000, 3, 4));
-            john.ContactNumber = "111111111111";
-            john.SayHi();
+            Shape[] shapes = {new Rectangle(), new Circle(), new Triangle() };
+
+            foreach (Shape shape in shapes)
+            {
+                shape.Draw();
+            }
         }
     }
 }
