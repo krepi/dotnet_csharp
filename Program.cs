@@ -8,32 +8,20 @@ namespace FirstProject
 {
     internal class Program
     {
-        static void DisplayElements(List<int> list)
-        {
-            Console.WriteLine("** List **");
-            foreach (int element in list)
-            {
-                Console.Write($"{element},");
-            }
-            Console.WriteLine(" ");
-            Console.WriteLine("** End **");
-        }
+        static Dictionary<string, List<int>> grades = new Dictionary<string, List<int>>();     
         private static void Main(string[] args)
         {
-            int[] intArray = { 1, 2, 3, 4, 5 };
-            int arrayLength = intArray.Length; // 5
+grades.Add("bob",new List<int>(){5,6});
 
-            List<int> intList = new List<int>(){6,1,20, 3, 45, 100, 2};
-            
-            Console.WriteLine("New element");
-            string userInput = Console.ReadLine();
-            int intValue = int.Parse(userInput);
-            
-            intList.Add(intValue);
-            DisplayElements(intList);
-            intList.Sort();
-            DisplayElements(intList);
-
+{
+    
+} 
+            grades["bob"].Add(5);
+            Console.WriteLine(grades["bob"].Count);
+            foreach(int grade in grades["bob"] )
+            {
+                
+            }
 
         }
     }
