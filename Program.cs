@@ -8,32 +8,33 @@ namespace FirstProject
 {
     internal class Program
     {
+        static void DisplayElements(List<int> list)
+        {
+            Console.WriteLine("** List **");
+            foreach (int element in list)
+            {
+                Console.Write($"{element},");
+            }
+            Console.WriteLine(" ");
+            Console.WriteLine("** End **");
+        }
         private static void Main(string[] args)
         {
-            ExcelFile excelFile = new ExcelFile();
-            excelFile.CreatedOn = DateTime.Now;
-            excelFile.FileName = "excel-file";
-            excelFile.GenerateReport();
+            int[] intArray = { 1, 2, 3, 4, 5 };
+            int arrayLength = intArray.Length; // 5
 
-            WordFile wordFile = new WordFile();
-            wordFile.FileName = "word-file";
-            wordFile.CreatedOn = DateTime.Now;
-
-            wordFile.Print();
-
-            PowerPointFile powerPointFile = new PowerPointFile();
-            powerPointFile.FileName = "power-point presentation";
-            powerPointFile.CreatedOn = DateTime.Now;
+            List<int> intList = new List<int>(){6,1,20, 3, 45, 100, 2};
             
-            powerPointFile.Present();
-            Console.WriteLine($"Starting the car:  {wordFile.FileName} z dupska");
+            Console.WriteLine("New element");
+            string userInput = Console.ReadLine();
+            int intValue = int.Parse(userInput);
+            
+            intList.Add(intValue);
+            DisplayElements(intList);
+            intList.Sort();
+            DisplayElements(intList);
 
-            Shape[] shapes = {new Rectangle(), new Circle(), new Triangle() };
 
-            foreach (Shape shape in shapes)
-            {
-                shape.Draw();
-            }
         }
     }
 }
