@@ -14,3 +14,6 @@
 /Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/ref/FirstProject.dll
 /Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/FirstProject.sourcelink.json
 /Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/FirstProject.csproj.AssemblyReference.cache
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/bin/Debug/net8.0/CsvHelper.dll
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/obj/Debug/net8.0/FirstProject.csproj.CopyComplete

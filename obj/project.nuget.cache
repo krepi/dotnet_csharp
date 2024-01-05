@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MZuqntcy4e/MMhzOp7q63Mj7L4brGAnQtpmuMAPvKPjSk8EjRvr4lXSGrQae+iSpTjYYaE6cGU8zLcrnhpr4iQ==",
+  "dgSpecHash": "kp1okhGykR9vR4dpzzMw+fzwGMBBAT1vLCXOESmate7H47hBRkSxnkDiKyv6SUybPieP+vFIcAe/iP86fUmZzw==",
   "success": true,
   "projectFilePath": "/Users/przemyslawkrepski/development/dotnet/udemy/FirstProject/FirstProject.csproj",
   "expectedPackageFiles": [
+    "/Users/przemyslawkrepski/.nuget/packages/csvhelper/30.0.1/csvhelper.30.0.1.nupkg.sha512",
     "/Users/przemyslawkrepski/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
